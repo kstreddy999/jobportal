@@ -192,25 +192,115 @@ a{
     border-color: white;
 }
 
-@media only screen and (max-width:1139px)
-{
-    .call{
+
+.sectionTwo{
+    text-align: center;
+    padding: 8% 6%;
+}
+
+.howto{
+    font-size: 2rem;
+}
+
+
+.howto-one{
+    padding-bottom: 8%;
+}
+
+
+.howto-two img{
+    margin-bottom: 15%;
+}
+
+
+.howto-two p{
+    font-size: 1.5rem;
+    padding:0 20%;
+    line-height: 1.8rem;
+    padding-bottom: 10%;
+}
+
+
+
+.lj-col{
+    padding: 7%;
+    padding-bottom: 4%;
+}
+
+
+
+.table.table-striped.lj-table{
+    font-family: "lato";
+    font-size: 1.5rem;
+    width:100%;
+}
+
+
+.lj-table td{
+    padding: 2% 4%;
+    color: rgb(139,139,139);
+}
+
+
+.lj-table .thead-dark th{
+    background-color: rgb(2,176,185);
+    border-color: rgb(2,176,185);
+    padding: 2% 4%;
+}
+
+
+.lj-table tr td:nth-child(1){
+    padding: 2% 3% 2% 1%;
+}
+
+.lj-table tr th:nth-child(1){
+    padding: 2% 3% 2% 1%;
+}
+
+
+.lj-btn{
+    background-color: rgb(122,201,67);
+    border-radius: 0;
+    margin-top: 2%;
+    padding: 0.6% 2%;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1139px) {
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1139px) {
+     .call{
         padding-left: 0;
-    }
-
-    .socialIcons{
-        padding-right: 2rem;
-    }
-
-    .jpcontainer{
-        text-align: center;
-    }
-
-    .jplogo{
-        padding-left: 0;
-    }
+}
 
 
+.socialIcons{
+    padding-right: 2rem;
+}
+
+.jpcontainer{
+    text-align: center;
+}
+
+.jplogo{
+    padding-left: 0;
+}   
 }
 
 
