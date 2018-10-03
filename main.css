@@ -311,6 +311,38 @@ a{
     padding:0.7rem 4rem;    
 }
 
+.sectionThree{
+    background-image: url(assets/sec-3bg.jpg);
+    color: white;
+    text-align: center;
+    padding: 3% 8% 5%;
+    margin-bottom: 2%;
+}
+
+.os{
+    padding-bottom: 3%;
+}
+
+
+.os-col img{
+    border-radius: 100rem;
+}
+
+
+.os-col h2{
+    margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
