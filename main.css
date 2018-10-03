@@ -334,6 +334,57 @@ a{
 }
 
 
+.sectionFour{
+    padding: 6%;
+    text-align: center;
+    font-family: "lato";
+}
+
+
+.sectionFour img{
+    margin:auto;
+}
+
+.what-sli{
+    margin: 5%;
+    color: rgb(110,110,110);
+    margin-bottom: 3%;
+}
+
+
+.what-ind{
+    position: relative;
+    margin: 0;
+}
+
+.what-ind li{
+    background-color: rgb(127,127,127);
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+}
+
+.what-ind .active{
+    background-color: rgb(122,201,67);
+}
+
+
+.what-sli label{
+    font-size: 1.2rem;
+}
+
+
+.what-sli p{
+    font-size: 1.5rem;
+    padding: 3% 20%;
+}
+
+
+.what-socialicons img{
+    padding: 0 0.7%;
+}
+
+
 
 
 
