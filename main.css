@@ -385,6 +385,83 @@ a{
 }
 
 
+.sectionFive{
+    text-align: center;
+    background-color: rgb(243,242,242);
+    padding: 5%;
+    font-family: "lato";
+    padding-bottom: 3%;
+}
+
+.sectionFive h2{
+    color: rgb(77,77,77);
+    padding-bottom: 3%;
+}
+
+
+.lat-deck{
+    padding: 0 5%;
+}
+
+
+div.card.lat-card{
+    padding: 3% 4%;
+    margin: 0 0.6%;
+}
+
+.lat-card label{
+    font-size: 1rem;
+    display: block;
+    font-weight: 500;
+}
+
+
+.lat-card h5{
+    font-size: 1.4rem;
+    color: rgb(77,77,77);
+}
+
+
+.lat-card .tec{
+    color: rgb(122,201,67);
+}
+
+
+.lat-card .com{
+    color: rgb(2,176,185);
+}
+
+
+.lat-card .loc{
+    color: rgb(117,117,117);
+    font-size: 1.25rem;
+}
+
+
+.lat-card-body{
+    padding-bottom: 0;
+}
+
+
+.latsli-ind{
+    position: relative;
+    padding: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.latsli-ind li{
+    width: 7%;
+    height: 5px;
+    background-color: rgb(127,127,127);
+}
+
+
+.latsli-ind .active{
+    background-color: rgb(122,201,67);
+}
+
 
 
 
