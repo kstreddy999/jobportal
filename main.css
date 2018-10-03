@@ -463,6 +463,30 @@ div.card.lat-card{
 }
 
 
+.sectionSix{
+    text-align: center;
+    padding: 5% 2% 6% 5%;
+    font-family: "lato";
+}
+
+
+.sectionSix h2{
+    padding-bottom: 5%;
+}
+
+
+.sectionSix img{
+    padding: 1%;
+    border-color: rgb(193,193,193);
+}
+
+
+.sectionSix i{
+    float: right;
+    margin-top: 15%;
+    color: rgb(122,201,67);
+}
+
 
 
 
