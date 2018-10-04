@@ -540,6 +540,26 @@ div.card.lat-card{
 }
 
 
+footer,
+footer div label a{
+    background-color: rgb(34,34,34);
+    color: rgb(169,169,169);
+    padding: 2% 6% 1% 4%;
+    font-weight: 450;
+}
+
+footer label{
+    width: 50%;
+}
+
+.ter{
+    width: 50%;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+
 
 
 
