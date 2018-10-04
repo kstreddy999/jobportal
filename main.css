@@ -96,7 +96,7 @@ a{
     position: absolute;
     background-color: rgba(255,255,255,0.7);
     width: 100%;
-    z-index: 500;
+    z-index: 1000;
     padding: 0.3rem 1rem;
 }
 
@@ -106,6 +106,9 @@ a{
     font-weight: 600;
     font-size: 0.9rem;
 }
+
+
+
 
 
 .navbar-light .navbar-nav .nav-item .jpNavLink{
@@ -242,7 +245,11 @@ a{
 .table.table-striped.lj-table{
     font-family: "lato";
     font-size: 1.5rem;
-    width:100%;
+    width: 100%;
+}
+
+.tabover{
+    overflow-x: auto;
 }
 
 
@@ -613,41 +620,65 @@ footer label{
     .jplogo{
         padding-left: 0;
     } 
-    
-    
+
+
     .jpjumbotron .container-fluid h1.display-4{
         margin-bottom: 0;
     }
-    
+
     .lead{
         margin-bottom: 0;
     }
-    
+
     .jp-form{
         padding: 0;
     }
-    
+
     input.form-control.jp-form-control{
         height: 45%;
         border-radius: 3px;
         padding: 3%;
         margin: 3px;
     }
-    
+
     div.col.jp-form-col{
         height: 50%;
         padding-bottom: 5px;
         margin-bottom: 0;
     }
-    
+
     .jp-app-col img{
         width: 75%;
     }
-    
+
     .jp-form-control::placeholder {
-    font-size: 2vw;
-}
-    
+        font-size: 2vw;
+    }
+
+    .jpnavbar{
+        height: 10%;
+        padding: 0;
+    }
+
+    .jpnavbar button{
+        padding: 0 1%;
+        height: 100%;
+    }
+
+    .jpnavbar span{
+        height: 100%;
+        vertical-align: top;
+    }
+
+    .for-btn{
+        margin: 0;
+    }
+
+    .jpdrop{
+        background-color: rgba(255,255,255,0.7);
+    }
+
+
 }
 
 
