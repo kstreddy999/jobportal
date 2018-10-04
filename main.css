@@ -145,6 +145,16 @@ a{
 }
 
 
+.ios{
+    float: right;
+}
+
+
+.and{
+    float: left;
+}
+
+
 .searchbtn{
     background-color: rgb(122,201,67);
     padding: 1.5% 5%;
@@ -342,7 +352,9 @@ a{
 
 
 .os-col img{
+    border: 1px solid;
     border-radius: 100rem;
+    border-color: rgb(2,176,185);
 }
 
 
@@ -455,8 +467,14 @@ div.card.lat-card{
 }
 
 
+.lat-card img{
+    padding: 1% 15%;
+}
+
+
 .lat-card-body{
-    padding-bottom: 0;
+    padding: 0;
+    padding-top: 20px;
 }
 
 
@@ -499,10 +517,23 @@ div.card.lat-card{
 
 
 .sectionSix i{
-    float: right;
-    margin-top: 15%;
+    position: fixed;
+    bottom: 18px;
+    right: 40px;
     color: rgb(122,201,67);
 }
+
+
+.line{
+    padding: 0;
+    margin: 0;
+}
+
+
+#back-to-top{
+    display: none;
+}
+
 
 
 .sectionSeven{
