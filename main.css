@@ -488,6 +488,58 @@ div.card.lat-card{
 }
 
 
+.sectionSeven{
+    background-color: rgb(77,77,77);
+    font-family: "lato";
+    text-align: left;
+    color: white;
+    padding: 4%;
+}
+
+.sectionSeven ul{
+    padding-left: 0;
+    padding-top: 5%;
+    list-style-type: none;
+}
+
+.sectionSeven ul a{
+    color: rgb(167,167,167);
+    text-align: left;
+}
+
+.con{
+    padding-left: 4%;
+}
+
+
+.con .col-md-2{
+    padding: 0;
+}
+
+.con .col-sm-6,
+.con .col-sm-4,
+.con .col-sm-8{
+    width: 50%;
+    display: block;
+}
+
+.con img{
+    margin: 2% 0;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.con-soc img{
+    width: 18%;
+    border: none;
+}
+
+.con-soc a{
+    margin-left: 10%;
+}
+
+
 
 
 
