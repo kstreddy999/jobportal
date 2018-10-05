@@ -981,6 +981,7 @@ footer label{
 
     .jp-control{
         display: flex;
+        z-index: 1200;
     }
 
     .jpIndicators{
