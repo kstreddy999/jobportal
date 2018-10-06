@@ -103,7 +103,7 @@ a{
     position: absolute;
     background-color: rgba(255,255,255,0.7);
     width: 100%;
-    z-index: 1000;
+    z-index: 1500;
     padding: 0.3rem 1rem;
 }
 
@@ -498,6 +498,11 @@ div.card.lat-card{
 }
 
 
+.latsli-sb{
+    display: none;
+}
+
+
 .latsli-ind li{
     width: 7%;
     height: 5px;
@@ -733,6 +738,14 @@ footer label{
 }
 
 
+@media only screen and (max-width: 1000px) {
+    .lj-table td,
+    .lj-table .thead-dark th{
+        padding: 0.75rem;
+    }
+}
+
+
 
 
 @media only screen and (max-width: 767px) {
@@ -950,6 +963,10 @@ footer label{
     .lj-btn{
         width: 40%;
     }
+    
+    .mid-line{
+        display: none;
+    }
 
 
 }
@@ -990,7 +1007,36 @@ footer label{
 }
 
 
-
+@media only screen and (max-width: 575px) {
+    
+    
+    .latsli-sb{
+        display: flex;
+    }
+    
+    .latsli-next,
+    .latsli-prev{
+        background-color: rgb(127,127,127);
+        position: absolute;
+        display: block;
+        border-radius: 50px;
+    }
+    
+    .latsli-prev{
+        left: 0;
+    }
+    
+    .latsli-next{
+        right: 0;
+    }
+    
+    .lj-table tr td:nth-child(1),
+    .lj-table td{
+        padding: 0.75rem;
+    }
+    
+    
+}
 
 
 
@@ -1010,6 +1056,11 @@ footer label{
 
     .app-down{
         margin: 0.75% 0;
+    }
+    
+    
+    .lj-table{
+        overflow: auto;
     }
 
 
@@ -1044,6 +1095,7 @@ footer label{
     .jp-form-control::placeholder{
         font-size: 1rem;
     }
+    
     
 }
 
