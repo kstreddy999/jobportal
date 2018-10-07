@@ -452,6 +452,7 @@ a{
 div.card.lat-card{
     padding: 12% 16%;
     margin: 0 0.6%;
+    height: 341.25px;
 }
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
@@ -659,13 +660,6 @@ footer label{
 
 
 
-@media only screen and (max-width: 1183px) {
-
-    div.card.lat-card{
-        height: 359px;
-    }
-
-}
 
 
 
@@ -776,6 +770,10 @@ footer label{
     .lj-table td,
     .lj-table .thead-dark th{
         padding: 0.75rem;
+    }
+    
+    div.card.lat-card{
+        height: 348px;
     }
 }
 
@@ -1055,6 +1053,7 @@ footer label{
     
      div.card.lat-card{
         padding: 6% 2%;
+         height: 328px;
     }
 }
 
@@ -1147,6 +1146,10 @@ footer label{
     .owl-theme .owl-dots .owl-dot span{
 
         display: none;
+    }
+    
+    div.card.lat-card{
+        height: 447px;
     }
 
    
