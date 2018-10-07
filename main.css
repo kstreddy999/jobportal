@@ -37,6 +37,10 @@ a{
     padding-right: 0;
 }
 
+.call-drop{
+    display: none;
+}
+
 
 
 .fa-1-3x{
@@ -441,14 +445,31 @@ a{
 }
 
 
-.lat-deck{
+.lat-slide{
     padding: 0 5%;
 }
 
-
 div.card.lat-card{
-    padding: 3% 4%;
+    padding: 12% 16%;
     margin: 0 0.6%;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    display: block;
+    width: 50px;
+    height: 5px;
+    margin: 5px;
+    margin-top: 70%;
+    border-radius: 0;
+    background-color: rgb(127,127,127);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: rgb(122,201,67);
 }
 
 .lat-card label{
@@ -489,6 +510,9 @@ div.card.lat-card{
     padding: 0;
     padding-top: 20px;
 }
+
+
+
 
 
 .latsli-ind{
@@ -635,6 +659,16 @@ footer label{
 
 
 
+@media only screen and (max-width: 1183px) {
+
+    div.card.lat-card{
+        height: 359px;
+    }
+
+}
+
+
+
 
 
 
@@ -732,6 +766,7 @@ footer label{
     .jpdrop{
         background-color: rgba(255,255,255,0.7);
     }
+    
 
 
 }
@@ -751,8 +786,8 @@ footer label{
 
 @media only screen and (max-width: 767px) {
 
-    .job,
-    ,portal{
+    label.job,
+    ,label.portal{
         margin-bottom: 0;
     }
 
@@ -908,7 +943,7 @@ footer label{
     .lj-btn{
         width: 40%;
     }
-    
+
     .lj-table tr th:nth-child(1) {
         min-width: 125px;
     }
@@ -954,14 +989,7 @@ footer label{
         padding: 3% 5%;
     }
 
-    .card{
-        flex-direction: row
-    }
 
-    .lat-card img{
-        width: 50%;
-        padding: 1% 1%;
-    }
 
     .sectionSix img:not(.line){
         width: 25%;
@@ -1018,7 +1046,68 @@ footer label{
 }
 
 
+
+
+@media only screen and (max-width: 600px) {
+    .owl-theme .owl-dots .owl-dot span {
+        width: 25px;
+    }
+    
+     div.card.lat-card{
+        padding: 6% 2%;
+    }
+}
+
+
+
+
+
+
 @media only screen and (max-width: 575px) {
+
+
+
+    .call-lab{
+        display: none;
+    }
+
+    .socialIcons{
+        display: none;
+    }
+
+
+    .call-drop{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .call-btn{
+        padding: 0;
+        color: black;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+
+
+    .call-btn:not(:disabled):not(.disabled).active, .call-btn:not(:disabled):not(.disabled):active, .show>.call-btn.dropdown-toggle{
+        color: black;
+        background-color: transparent;
+        border-color: #545b62;
+    }
+
+
+
+
+
+    .call-menu{
+        z-index: 1600;
+        text-align: center;
+    }
+
+    .call-menu a{
+        padding: 5px 10px;
+    }
 
 
     .latsli-sb{
@@ -1052,22 +1141,27 @@ footer label{
 
 
 
+
+@media only screen and (max-width: 500px) {
+
+    .owl-theme .owl-dots .owl-dot span{
+
+        display: none;
+    }
+
+   
+
+}
+
+
+
+
+
 @media only screen and (max-width: 450px) {
 
-    .lat-card img{
-        width: 35%;
-        height: 108px;
-        margin: auto;
-    }
 
-    .lat-card h5,
-    .lat-card label{
-        margin-bottom: 0.25rem;
-    }
 
-    .app-down{
-        margin: 0.75% 0;
-    }
+
 
 
     .lj-table{
@@ -1078,14 +1172,6 @@ footer label{
 }
 
 
-@media only screen and (max-width: 450px) {
-
-    .lat-card img{
-        width: 90px;
-        height: 90px;
-    }
-
-}
 
 
 @media only screen and (max-width: 400px) {
@@ -1126,12 +1212,6 @@ footer label{
         font-size: 0.6rem;
     }
 
-
-    /*
-    .jp-app-row{
-    display: none;
-}
-    */
 
 }
 
