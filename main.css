@@ -37,9 +37,23 @@ a{
     padding-right: 0;
 }
 
+
+
 .call-drop{
     display: none;
 }
+
+.btn.call-drop{
+    float: right;
+    padding: 0;
+    background-color: transparent;
+    margin-top: 10%;
+}
+
+.call-acc{
+    display: none;
+}
+
 
 
 
@@ -368,15 +382,27 @@ a{
 }
 
 
-.os-col img{
+.os-row img{
     border: 1px solid;
     border-radius: 100rem;
     border-color: rgb(2,176,185);
 }
 
 
-.os-col h2{
+.os-row h2{
     margin: 3%;
+}
+
+
+.os-row{
+    height: 250px;
+    flex-flow: row;
+    overflow: auto;
+}
+
+.os-col{
+    margin: auto;
+    height: 190px;
 }
 
 
@@ -572,6 +598,14 @@ div.card.lat-card{
     padding: 0;
     margin: 0;
 }
+
+
+.our-col{
+        width: 100%;
+        height: 150px;
+        display: inline-flex;
+        overflow: auto;
+    }
 
 
 #back-to-top{
@@ -773,7 +807,7 @@ footer label{
     }
     
     div.card.lat-card{
-        height: 348px;
+        height: 400px;
     }
 }
 
@@ -844,16 +878,16 @@ footer label{
     }
 
     .os h2,
-    .os-col h2{
+    .os-row h2{
         font-size: 1.65rem;
     }
 
-    .os-col h4{
+    .os-row h4{
         font-size: 1.05rem;
     }
 
-    .os-col img{
-        width: 65%;
+    .os-col{
+        height: 170px;
     }
 
     .sectionFour h2{
@@ -875,6 +909,10 @@ footer label{
     .lat-card-body h5{
         font-size: 1.05rem;
     }
+    
+    div.card.lat-card{
+        height: 350px;
+    }
 
     .loc{
         font-size: 1rem;
@@ -884,13 +922,7 @@ footer label{
         font-size: 1.65rem;
     }
 
-    .sectionSix img:not(.line){
-        width: 12%;
-    }
 
-    .sectionSix img.line{
-        height: 5%;
-    }
 
     footer div.foot label{
         font-size: 0.8rem;
@@ -979,19 +1011,12 @@ footer label{
         padding-right: 0;
     }
 
-    .os-col{
-        width: 50%;
-    }
 
     .what-sli p{
         padding: 3% 5%;
     }
 
 
-
-    .sectionSix img:not(.line){
-        width: 25%;
-    }
 
     .con .col-sm-8 {
         margin: auto;
@@ -1001,9 +1026,6 @@ footer label{
         width: 40%;
     }
 
-    .mid-line{
-        display: none;
-    }
 
 
 }
@@ -1073,39 +1095,35 @@ footer label{
     .socialIcons{
         display: none;
     }
-
-
+    
     .call-drop{
         display: block;
-        margin-bottom: 10px;
     }
-
-    .call-btn{
-        padding: 0;
-        color: black;
-        background-color: transparent;
-        border-color: transparent;
+    
+    .call-acc{
+        display: block;
     }
-
-
-
-    .call-btn:not(:disabled):not(.disabled).active, .call-btn:not(:disabled):not(.disabled):active, .show>.call-btn.dropdown-toggle{
-        color: black;
-        background-color: transparent;
-        border-color: #545b62;
+    
+    .call-drop .fa-minus{
+        display: inline-block;
     }
-
-
-
-
-
-    .call-menu{
-        z-index: 1600;
-        text-align: center;
+    
+    .call-drop.collapsed .fa-minus{
+        display: none;
     }
-
-    .call-menu a{
-        padding: 5px 10px;
+    
+    .call-drop.collapsed .fa-plus{
+        display: inline-block;
+    }
+    
+    .call-drop .fa-plus{
+        display: none;
+    }
+    
+    
+    .call-acc .card-body{
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
 
@@ -1133,7 +1151,7 @@ footer label{
     .lj-table td{
         padding: 0.75rem;
     }
-
+    
 
 }
 
@@ -1141,34 +1159,27 @@ footer label{
 
 
 
-@media only screen and (max-width: 500px) {
 
+
+
+@media only screen and (max-width: 449px) {
+
+    .lj-table{
+        overflow: auto;
+    }
+    
     .owl-theme .owl-dots .owl-dot span{
 
         display: none;
     }
     
-    div.card.lat-card{
-        height: 447px;
+    div.card.lat-card img{
+        width: 80%;
+        margin: auto;
     }
-
-   
-
-}
-
-
-
-
-
-@media only screen and (max-width: 450px) {
-
-
-
-
-
-
-    .lj-table{
-        overflow: auto;
+    
+    div.card.lat-card{
+        height: 380px;
     }
 
 
@@ -1194,6 +1205,10 @@ footer label{
 
     .jp-form-control::placeholder{
         font-size: 1rem;
+    }
+    
+    #back-to-top i{
+        font-size: 2.5em;
     }
 
 
@@ -1229,13 +1244,17 @@ footer label{
     div.col .jp-form-control{
         height: 20px;
     }
-
-
-
+    
+    div.card.lat-card {
+        height: 330px;
+    }
+    
 
 
 
 }
+
+
 
 
 
@@ -1247,4 +1266,5 @@ footer label{
     .portal{
         font-size: 1.75rem;
     }
+    
 }

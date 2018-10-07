@@ -19,7 +19,7 @@ function scrollFunction() {
                         items:1,
                         nav:true
                     },
-                    500:{
+                    450:{
                         items:2,
                         nav:false
                     },
@@ -30,3 +30,5 @@ function scrollFunction() {
                     }
                 }
             })
+
+
