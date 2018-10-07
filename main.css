@@ -294,6 +294,7 @@ a{
 
 .lj-table tr th:nth-child(1){
     padding: 2% 3% 2% 1%;
+    min-width: 180px;
 }
 
 
@@ -638,14 +639,12 @@ footer label{
 
 
 
-
-
 @media only screen and (max-width: 1100px) {
-    
+
     .jpjumbotron .container-fluid h1.display-4{
         margin-top: 3%;
     }
-    
+
 }
 
 
@@ -748,6 +747,8 @@ footer label{
 
 
 
+
+
 @media only screen and (max-width: 767px) {
 
     .job,
@@ -789,6 +790,12 @@ footer label{
     .table.table-striped.lj-table{
         font-size: 1.15rem;
     }
+
+
+    .lj-table tr th:nth-child(1) {
+        min-width: 160px;
+    }
+
 
     .lj-btn{
         font-size: 1.15rem;
@@ -901,6 +908,10 @@ footer label{
     .lj-btn{
         width: 40%;
     }
+    
+    .lj-table tr th:nth-child(1) {
+        min-width: 125px;
+    }
 
 }
 
@@ -963,7 +974,7 @@ footer label{
     .lj-btn{
         width: 40%;
     }
-    
+
     .mid-line{
         display: none;
     }
@@ -984,8 +995,8 @@ footer label{
     .sectionOne .jpSlideImg img{
         width: 120% !important;
     }
-    
-    
+
+
     .jpjumbotron .container-fluid h1.display-4{
         margin-top: 5%; 
     }
@@ -1008,12 +1019,12 @@ footer label{
 
 
 @media only screen and (max-width: 575px) {
-    
-    
+
+
     .latsli-sb{
         display: flex;
     }
-    
+
     .latsli-next,
     .latsli-prev{
         background-color: rgb(127,127,127);
@@ -1021,21 +1032,21 @@ footer label{
         display: block;
         border-radius: 50px;
     }
-    
+
     .latsli-prev{
         left: 0;
     }
-    
+
     .latsli-next{
         right: 0;
     }
-    
+
     .lj-table tr td:nth-child(1),
     .lj-table td{
         padding: 0.75rem;
     }
-    
-    
+
+
 }
 
 
@@ -1057,8 +1068,8 @@ footer label{
     .app-down{
         margin: 0.75% 0;
     }
-    
-    
+
+
     .lj-table{
         overflow: auto;
     }
@@ -1078,49 +1089,49 @@ footer label{
 
 
 @media only screen and (max-width: 400px) {
-    
+
     .sectionOne .jpSlideImg img{
         width: 150% !important;
     }
-    
+
     .jpjumbotron .container-fluid h1.display-4{
         margin-top: 10%;
         font-size: 1.65rem;
     }
-    
+
     .lead{
         font-size: 1.15rem;
     }
-    
+
     .jp-form-control::placeholder{
         font-size: 1rem;
     }
-    
-    
+
+
 }
 
 
 @media only screen and (max-width: 379px) {
-    
-    
+
+
     .jpjumbotron .container-fluid h1.display-4{
         font-size: 1.25rem;
     }
-    
+
     .lead{
         font-size: 0.7rem;
     }
-    
+
     .jp-form-control::placeholder{
         font-size: 0.6rem;
     }
-    
-    
-/*
+
+
+    /*
     .jp-app-row{
-        display: none;
-    }
-*/
+    display: none;
+}
+    */
 
 }
 
